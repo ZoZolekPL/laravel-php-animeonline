@@ -1,0 +1,122 @@
+body
+{
+  
+   width: auto;
+}
+main
+{
+    background-color: rgb(150, 21, 139);
+    float: none;
+}
+/*Nawigacja*/
+nav
+{
+    float: right;
+display: flex;
+height: 60px;
+width: 60%;
+background-color: rgba(133, 17, 123, 0.897);
+font-size: 20px;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+#nav a
+{
+    
+text-decoration: none;
+    display: block;
+}
+#nav li
+{
+    list-style: none;
+    
+    
+}
+#nav > li
+{
+float:left;
+text-align: center;
+}
+#nav>li a
+{
+padding: 20px;
+
+}
+#nav
+{
+    position: absolute;
+}
+#nav>li>a
+{
+    transition: 800ms;
+}
+#nav>li>ul>li a
+{
+    transition: 500ms;
+
+}
+
+#nav >li>ul
+{   
+    position: absolute;
+    display: none;
+    background-color: rgba(133, 17, 123, 0.897);
+    border-left: solid 1px  rgb(73, 11, 73);
+    opacity:0 ;
+}
+
+
+#nav>li:hover ul
+{
+    display: block;
+    opacity: 1;
+    transition: 1s;
+}
+
+#nav>li> a:link
+{
+color:black;
+
+}
+#nav#nav>li>{
+color: black;
+
+}
+#nav>li> a:hover
+{
+background-color: rgba(223, 34, 144, 0.897); ;
+color: white;
+}
+#nav>li> a:active
+{
+background-color: rgba(223, 34, 144, 0.897); ;
+color:  white;
+}
+
+
+
+#nav>li>ul>li a:link
+{
+color:  black;
+
+}
+#nav>li>ul>li  a :visited
+{
+color:  black;
+
+}
+#nav>li>ul>li  a:hover
+{
+background-color: rgba(223, 34, 144, 0.897); ;
+color:white;;
+}
+#nav>li>ul>li  a:active
+{
+background-color: rgba(223, 34, 144, 0.897); ;
+color:white;
+}
+
+/*koniecn awigacji*/
